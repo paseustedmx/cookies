@@ -7,7 +7,7 @@ if (isset($_POST['submit'])){
     $message = $_POST['message'];
     $submit = $_POST['submit'];
 
-    $mailTo = "soporte@paseusted.com.mx";
+    $mailTo = "hola@paseusted.com.mx";
     $headers = "De: ".$email ;
     $txt = "hemos recibido un email de: ".$name.".\n\n";
     $phone = "Mi numero es: ".$number. "y mi correo es: ".$email;
